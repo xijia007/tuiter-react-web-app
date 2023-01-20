@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h1>Account</h1>
+  <lable for="username">Name:</lable>
+  <br/>
+  <input id="username"
+         value="hello"
+         placeholder="John Doe"
+         title="Please enter your name"
+  />
+
+  <br/>
+  <lable for="bio">Bio:</lable>
+  <br/>
+  <textarea placeholder="I like to ski and play lego"
+            id="bio"
+            rows="10"
+            cols="40">Northeastern professor.Teaching webdev</textarea>
+
+  <br/>
+  <label>Married:</label>
+  <br/>
+  <input id="married-yes" type="radio" name="married"/>
+  <lable for="married-yes">Yes</lable>
+
+  <input id="married-no" type="radio" name="unmarried"/>
+  <lable for="married-no">No</lable>
+
+  <lable><input id="married-notsure" type="radio" name="unmarried"/>Not sure</lable>
+
+  <br/>
+  <label>Marital Status:</label>
+  <br/>
+  <select>
+    <option value="MARRIED">Married</option>
+    <option value="SINGLE">Single</option>
+    <option value="WIDOW">widow</option>
+  </select>
+
+  <br/>
+  <lable>Courses Teaching This Semester:</lable>
+  <br/>
+  <label><input type="checkbox"/>CS5610<br/></label>
+  <input type="checkbox"/>CS4550<br/>
+  <input type="checkbox"/>CS6120<br/>
+
+  <label>Email</label>
+  <input type="email"/>
+  <br/>
+
+  <label>Years Teaching</label>
+  <input type="number"
+         min="100"
+         max="1000"/>
+  <br/>
+
+  <label>Phone</label>
+  <input type="tel"/>
+  <br/>
+
+  <label>Date of Birth</label>
+  <input type="date"
+         value="2023-01-17"
+         min="2023-01-09"
+         max="2023-06-01"/>
+  <br/>
+  <bottom>
+
+  </bottom>
+
+</body>
+</html>
