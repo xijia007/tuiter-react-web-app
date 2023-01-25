@@ -1,0 +1,40 @@
+
+        h1 {
+            background-color: pink;
+        }
+
+      h2 {
+        background-color: lightblue;
+        color: yellow;
+      }
+
+      h3 {
+         background-color: green;
+         color: pink;
+      }
+
+      p {
+        background-color: pink;
+        color: yellow;
+      }
+
+      p#goals {
+
+        background-color: pink;
+        color: white;
+        /*border-width: 20px;
+        border-color: lightgreen;
+        border-style: ;*/
+        border: 30px lightgreen ridge;
+        border-bottom: 40px red dotted;
+        border-top-width: 20px;
+
+        margin: 30px;
+        margin-top: 50px;
+        margin-left: 50px;
+
+        padding: 100px;
+        padding-right: 40px;
+
+      }
+
