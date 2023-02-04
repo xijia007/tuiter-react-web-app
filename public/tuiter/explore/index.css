@@ -18,7 +18,7 @@
 .wd-body {
   margin-left: 16px;
   border: rgb(47, 51, 54) 1px solid;
-  
+
 }
 
 .wd-part-A-B {
@@ -47,7 +47,7 @@
 }
 
 input::placeholder {
-  color: white;
+  color: darkgray;
   position: relative;
   left: 50px;
 }
@@ -71,9 +71,9 @@ input::placeholder {
 
 .wd-part-B {
   color: darkgray;
-  padding: 16px 16px 0 16px;
+  padding: 16px 0 0 16px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .wd-part-B-highligh {
@@ -84,10 +84,6 @@ input::placeholder {
 
 .wd-part-B-item {
   margin: 0 16px 0 0;
-}
-
-.wd-menu-ul {
-  margin-bottom: 0;
 }
 
 .wd-space {
