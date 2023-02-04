@@ -10,9 +10,19 @@
   color: white;
 }
 
+./*wd-body {
+
+  min-width: 600px;
+}*/
+
+.wd-head-body {
+    border: rgb(47, 51, 54) solid;
+
+}
+
 .wd-head-content {
   border: rgb(47, 51, 54) solid;
-  width: 594px;
+
 }
 
 .wd-head-title {
@@ -38,19 +48,21 @@
 
 .wd-main {
   clear: both;
-  width: 594px;
   border-style: solid;
   border: rgb(47, 51, 54) 1px solid;
   display: flex;
+
 }
 
 .wd-main-left {
-  width: 10%;
+  float: left
+  width: 76px;
 }
 
 .wd-main-right {
+
   margin-top: 12px;
-  width: 90%;
+
 }
 
 .wd-avatar-image {
@@ -72,24 +84,33 @@
   color: darkgray;
 }
 
-.wd-main-content {
-  margin-left: 12px;
-  margin-right: 16px;
-  font-size: 15px;
-  color: white;
-  width: 500px;
+.wd-main-content-box {
+margin-left: 12px;
+
+
 }
 
+
+
+.wd-main-content {
+
+  font-size: 15px;
+  color: white;
+  /*max-width: 500px;*/
+}
+
+
 .wd-three-dot-other {
-  float: right;
-  margin-right: 16px;
+overflow: hidden;
+float: right;
+margin-right: 16px;
   color: darkgray;
 }
 
 .wd-main-image-box {
   margin-right: 12px;
   margin-left: 12px;
-  width: 504px;
+  max-width: 504px;
   border-radius: 25px 25px 25px 25px;
   border: rgb(47, 51, 54) 1px solid;
 }

@@ -14,10 +14,16 @@
 .wd-fg-color-darkgrey {
   color: DarkGray;
 }
-.wd-part-A-B {
+
+.wd-body {
   margin-left: 16px;
   border: rgb(47, 51, 54) 1px solid;
-  padding: 16px 16px 0 16px;
+  /*width: 700px;*/
+}
+
+.wd-part-A-B {
+  border: rgb(47, 51, 54) 1px solid;
+  padding: 16px 16px 0 0px;
 }
 
 .wd-part-A {
@@ -77,7 +83,7 @@ input::placeholder {
 }
 
 .wd-part-B-item {
-  margin: 0 20px;
+  margin: 0 16px 0 0;
 }
 
 .wd-menu-ul {
@@ -85,28 +91,25 @@ input::placeholder {
 }
 
 .wd-space {
-  margin-left: 16px;
-  padding: 2px;
+  padding: 3px;
   border: rgb(47, 51, 54) solid;
 }
 
 .wd-part-C {
-  margin-left: 16px;
-
-  border: rgb(47, 51, 54) solid;
+  border-left: rgb(47, 51, 54) solid;
+  border-right: rgb(47, 51, 54) solid;
+  border-bottom: rgb(47, 51, 54) solid;
 }
 
 .wd-part-C-1 {
   margin-left: 16px;
-  margin-top: 16px;
-
   color: rgb(110, 118, 125);
   font-size: 13px;
 }
 
 .wd-part-C-dot-1 {
   color: white;
-  float: right;
+  text-align: end;
   margin-right: 12px;
   font-size: 13px;
 }
@@ -132,7 +135,6 @@ input::placeholder {
 }
 
 .wd-part-D {
-  margin-left: 16px;
   border-right: rgb(47, 51, 54) solid;
   border-left: rgb(47, 51, 54) solid;
   border-bottom: rgb(47, 51, 54) solid;
@@ -191,7 +193,6 @@ input::placeholder {
 }
 
 .wd-part-E {
-  margin-left: 16px;
   border-right: rgb(47, 51, 54) solid;
   border-left: rgb(47, 51, 54) solid;
   border-bottom: rgb(47, 51, 54) solid;
@@ -233,3 +234,8 @@ input::placeholder {
   color: rgb(110, 118, 125);
   margin-bottom: 5px;
 }
+
+
+
+
+

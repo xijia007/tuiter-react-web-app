@@ -213,25 +213,25 @@ p#id-selector-2 {
  transform: rotate(90deg);
 }
 
-    .rotate-list {
-    transform: rotate(12deg);
-    width: 100px;
-    background-color: red;
-    color: white;
-    }
+.rotate-list {
+transform: rotate(12deg);
+width: 100px;
+background-color: red;
+color: white;
+}
 
-        .rotate-list-1 {
-        transform: rotate(30deg);
-        width: 100px;
-        background-color: red;
-        color: white;
-        }
+.rotate-list-1 {
+transform: rotate(30deg);
+width: 100px;
+background-color: red;
+color: white;
+}
 
 .rotate-list-items li {
    width: 100px;
    text-align: right;
 }
-.rotate-list-items li:nth-child(1) { 
+.rotate-list-items li:nth-child(1) {
    transform: rotate(-10deg);
    background-color: yellow;
 }
@@ -244,6 +244,293 @@ p#id-selector-2 {
    transform: rotate(10deg);
    background-color: red;
 }
+
+.rotate-image {
+   transform: rotate(-10deg);
+}
+
+.rotate-table {
+   position: relative;
+   left: 50px;
+   transform: rotate(15deg);}
+.rotate-table tr:nth-child(1) {
+   background-color: black;
+   color: white;}
+.rotate-table tr:nth-child(n+2) {
+   background-color: yellow;}
+.rotate-table tr:nth-child(n+5) {
+   background-color: blue;
+   color: white;}
+.rotate-table tr:nth-child(n+8) {
+   background-color: red;}
+.rotate-table tr:nth-child(n+11) {
+   background-color: green;
+   color: white;
+}
+
+.gradients-linear {
+ background: linear-gradient(yellow, red);
+   width: 200px;
+   height: 200px;
+}
+
+.gradients-linear-example {
+ background: linear-gradient(pink, yellow);
+   width: 200px;
+   height: 200px;
+}
+
+.gradients-radial {
+ background: radial-gradient(yellow, green);
+ width: 200px;
+ height: 200px;
+}
+
+.gradients-radial-example {
+ background: radial-gradient(pink, lightblue);
+ width: 200px;
+ height: 200px;
+}
+
+.gradients-positioned {
+ background:
+  radial-gradient(
+   at top left, blue, red);
+ width: 200px;
+ height: 200px;
+ color: white;
+}
+
+
+.gradients-positioned-example {
+ background:
+  radial-gradient(
+   at bottom left, pink, yellow);
+ width: 200px;
+ height: 200px;
+ color: lightblue;
+}
+
+.animation-keyframes {
+   position: relative;
+   top: 0px;
+   animation-duration: 7s;
+   animation-name: slidein;
+   width: 200px;
+   height: 200px;
+   background-color: red;
+   color: white;
+}
+
+@keyframes slidein {
+  from {
+    position: relative;
+    top: 0px;
+    font-size: 100%;
+    margin-left: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    color: black;
+  } /* continued on right */
+
+   50% {
+     position: relative;
+     top: -200px;
+     font-size: 300%;
+     margin-left: 25%;
+     width: 400px;
+     height: 400px;
+     background-color: blue;
+     color: white;
+   }
+
+   to {
+     position: relative;
+     top: 0px;
+     font-size: 100%;
+     margin-left: 0%;
+     width: 200px;
+     height: 200px;
+     background-color: red;
+     color: white;
+   }
+}
+
+.animation-keyframes-example {
+   position: relative;
+   top: 0px;
+   animation-duration: 5s;
+   animation-name: slidein-example;
+   font-size: 30px;
+   width: 300px;
+   height: 300px;
+   background-color: pink;
+   color: blue;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+
+}
+
+@keyframes slidein-example {
+  from {
+    position: relative;
+    top: 0px;
+    font-size: 100%;
+    margin-left: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    color: pink;
+  } /* continued on right */
+
+   50% {
+     position: relative;
+     top: -200px;
+     font-size: 200%;
+     margin-left: 25%;
+     width: 300px;
+     height: 300px;
+     background-color: lightblue;
+     color: pink;
+   }
+
+   to {
+     position: relative;
+     top: 0px;
+     font-size: 100%;
+     margin-left: 0%;
+     width: 200px;
+     height: 200px;
+     background-color: pink;
+     color: blue;
+   }
+}
+
+.flex-container-1 {
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+}
+.flex-box {
+  border: 5px gray solid;
+  margin: 10px;
+  padding: 10px;
+}
+.flex-box-1 {
+  background-color: yellow;
+}
+.flex-box-2 {
+  background-color: blue;
+  color: white;
+}
+.flex-box-3 {
+  background-color: red;
+  color: white;
+}
+
+.flex-container-2 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+}
+
+.flex-container-3 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+   justify-content: center;
+}
+
+.flex-container-4 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+   justify-content: end;
+}
+
+.flex-container-5 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+   justify-content: space-around;
+}
+
+.flex-container-6 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+   justify-content: space-between;
+}
+
+.flex-container-7 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: flex-start;
+}
+
+.flex-container-8 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.flex-container-9 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: flex-end;
+}
+
+.flex-container-10 {
+   border-width: 5px;
+   border-color: black;
+   border-style: solid;
+   display: flex;
+   justify-content: space-evenly;
+
+}
+
+.flex-container-10 > .flex-box {
+   flex-basis: 100%;
+}
+
+@media (min-width: 0px)
+   and (max-width: 600px) {
+   body {
+       background-color: yellow;
+   }
+   .media-query {
+       background-color: red;
+       color: white;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
