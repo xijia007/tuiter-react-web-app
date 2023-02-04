@@ -10,10 +10,10 @@
   color: white;
 }
 
-./*wd-body {
+.wd-body {
 
   min-width: 600px;
-}*/
+}
 
 .wd-head-body {
     border: rgb(47, 51, 54) solid;
@@ -51,7 +51,6 @@
   border-style: solid;
   border: rgb(47, 51, 54) 1px solid;
   display: flex;
-
 }
 
 .wd-main-left {
@@ -86,6 +85,7 @@
 
 .wd-main-content-box {
 margin-left: 12px;
+max-width: 506px;
 
 
 }
@@ -103,6 +103,7 @@ margin-left: 12px;
 .wd-three-dot-other {
 overflow: hidden;
 float: right;
+margin-left: auto;
 margin-right: 16px;
   color: darkgray;
 }
