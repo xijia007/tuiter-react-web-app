@@ -22,39 +22,47 @@
 
 .wd-part-A-B {
   border: rgb(47, 51, 54) 1px solid;
-  padding: 16px 16px 0 0px;
+  padding: 16px 0 0 0;
 }
 
 .wd-part-A {
   clear: both;
   display: flex;
+  justify-content: space-between;
 }
 
 .wd-part-A-left {
-  width: 91%;
+  border-radius: 50px;
+  width: 92%;
 }
 
 .wd-part-A-right {
-  width: 9%;
+  margin-right: 5px;
 }
 
 .wd-search-bar {
+  background-color: darkgray;
+  margin-left: 20px;
+  border: none;
+}
+
+.wd-search-bar-container {
   border-radius: 50px;
-  background-color: rgb(47, 51, 54);
-  padding: 5px;
-  width: 90%;
+  height: 30px;
+  justify-content: left;
+  display: flex;
 }
 
 input::placeholder {
-  color: darkgray;
+  color: white;
   position: relative;
   left: 50px;
 }
 
 .wd-search-icon {
-  width: 25px;
-  height: 25px;
-  margin: 3px 0 0 26px;
+  width: 17px;
+  height: 17px;
+  margin: 8px 0 0 26px;
   position: absolute;
 }
 
