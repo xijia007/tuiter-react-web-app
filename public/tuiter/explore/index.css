@@ -3,7 +3,6 @@
 }
 
 .wd-bg-color-darkgrey {
-  margin-left: 16px;
   background-color: darkgray;
 }
 
@@ -17,6 +16,7 @@
 
 .wd-body {
   margin-left: 16px;
+  margin-right: 16px;
   border: rgb(47, 51, 54) 1px solid;
 }
 
@@ -33,7 +33,7 @@
 
 .wd-part-A-left {
   border-radius: 50px;
-  width: 92%;
+  width: 85%;
 }
 
 .wd-part-A-right {
@@ -47,6 +47,7 @@
 }
 
 .wd-search-bar-container {
+  margin-left: 16px;
   border-radius: 50px;
   height: 30px;
   justify-content: left;
@@ -70,6 +71,7 @@ input::placeholder {
   border: none;
   float: right;
   background-color: black;
+  margin-top: 5px;
 }
 .wd-gear-icon {
   width: 20px;
@@ -80,17 +82,19 @@ input::placeholder {
   color: darkgray;
   padding: 16px 0 0 16px;
   display: flex;
-  justify-content: space-between;
 }
 
 .wd-part-B-highligh {
   color: rgb(29, 161, 242);
   border-bottom: 2px solid;
   padding-bottom: 16px;
+  padding-right: 16px;
 }
 
 .wd-part-B-item {
-  margin: 0 32px 0 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: rgb(110, 118, 125);
 }
 
 .wd-space {
