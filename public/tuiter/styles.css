@@ -11,18 +11,21 @@
 }
 
 .wd-body {
-
   min-width: 600px;
 }
 
 .wd-head-body {
-    border: rgb(47, 51, 54) solid;
-
+  border: rgb(47, 51, 54) solid;
 }
 
-.wd-head-content {
+/*.wd-head-content {
   border: rgb(47, 51, 54) solid;
 
+}*/
+.wd-head-content {
+  border: rgb(47, 51, 54) solid;
+  display: flex;
+  justify-content: space-between;
 }
 
 .wd-head-title {
@@ -41,9 +44,20 @@
 }
 
 .wd-three-dot-highlight {
+  overflow: hidden;
   float: right;
+  margin-left: auto;
   margin-right: 16px;
   color: rgb(29, 161, 242);
+}
+
+.wd-head-left {
+  float: left;
+}
+
+.wd-head-right {
+  margin-top: 12px;
+  float: right;
 }
 
 .wd-main {
@@ -51,17 +65,17 @@
   border-style: solid;
   border: rgb(47, 51, 54) 1px solid;
   display: flex;
+
+  justify-content: space-between;
 }
 
 .wd-main-left {
-  float: left
+  float: left;
   width: 76px;
 }
 
 .wd-main-right {
-
   margin-top: 12px;
-
 }
 
 .wd-avatar-image {
@@ -84,27 +98,21 @@
 }
 
 .wd-main-content-box {
-margin-left: 12px;
-max-width: 506px;
-
-
+  margin-left: 12px;
+  max-width: 506px;
 }
 
-
-
 .wd-main-content {
-
   font-size: 15px;
   color: white;
   /*max-width: 500px;*/
 }
 
-
 .wd-three-dot-other {
-overflow: hidden;
-float: right;
-margin-left: auto;
-margin-right: 16px;
+  overflow: hidden;
+  float: right;
+  margin-left: auto;
+  margin-right: 16px;
   color: darkgray;
 }
 
@@ -149,13 +157,9 @@ margin-right: 16px;
 .wd-tail-icon-box {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  padding: 12px;
+  justify-content: space-between;
+  padding: 12px 48px 12px 12px;
   color: darkgray;
-}
-
-.wd-tail-text-margin {
-  margin-right: 100px;
 }
 
 .wd-tail-text-icon {
@@ -163,7 +167,11 @@ margin-right: 16px;
 }
 
 .wd-tail-text-number {
-  margin-right: 68px;
+  padding: 0 24px 0 0;
+}
+
+.wd-tail-heart-number {
+  color: red;
 }
 
 .wd-share-icon {
