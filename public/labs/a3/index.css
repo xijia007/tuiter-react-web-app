@@ -532,6 +532,12 @@ p#id-selector-2 {
     background-color: yellow;
     color: lightblue;
   }
+
+    .media-query-example {
+      background-color: purple;
+      color: pink;
+    }
+
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
@@ -543,6 +549,10 @@ p#id-selector-2 {
     background-color: pink;
     color: green;
   }
+    .media-query-example {
+      background-color: lightblue;
+      color: yellow;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1800px) {
@@ -555,4 +565,11 @@ p#id-selector-2 {
     background-color: purple;
     color: gray;
   }
+      .media-query-example {
+        background-color: green;
+        color: pink;
+      }
 }
+
+
+
