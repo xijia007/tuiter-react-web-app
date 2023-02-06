@@ -3,7 +3,7 @@
 }
 
 .wd-bg-color-darkgrey {
-  background-color: darkgray;
+  background-color: rgb(47, 51, 54);
 }
 
 .wd-fg-color-white {
@@ -41,7 +41,7 @@
 }
 
 .wd-search-bar {
-  background-color: darkgray;
+  background-color: rgb(47, 51, 54);
   margin-left: 20px;
   border: none;
 }
@@ -55,7 +55,7 @@
 }
 
 input::placeholder {
-  color: white;
+  color: rgb(110, 118, 125);
   position: relative;
   left: 50px;
 }
