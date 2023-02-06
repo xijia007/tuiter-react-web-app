@@ -543,16 +543,21 @@ p#id-selector-2 {
 @media (min-width: 600px) and (max-width: 1200px) {
   p {
     background-color: green;
-    color: lightblue;
+    color: yellow;
   }
+  body {
+    background-color: lightblue;
+  }
+
   .media-query {
     background-color: pink;
     color: green;
   }
-    .media-query-example {
-      background-color: lightblue;
-      color: yellow;
-    }
+
+  .media-query-example {
+    background-color: lightblue;
+    color: yellow;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1800px) {
@@ -565,10 +570,10 @@ p#id-selector-2 {
     background-color: purple;
     color: gray;
   }
-      .media-query-example {
-        background-color: green;
-        color: pink;
-      }
+  .media-query-example {
+    background-color: green;
+    color: pink;
+  }
 }
 
 
