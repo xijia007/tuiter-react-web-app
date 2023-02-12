@@ -88,23 +88,23 @@ bi.bi-house-door {
 }
 .starship-text-xl {
   position: absolute;
-  margin-top: 246px;
-  margin-left: 10px;
+  margin-top: 285px;
+  margin-left: 15px;
   color: white;
   font-size: 25px;
 }
 
 .starship-text-xxl {
   position: absolute;
-  margin-top: 295px;
-  margin-left: 10px;
+  margin-top: 330px;
+  margin-left: 15px;
   color: white;
   font-size: 25px;
 }
 
 .starship-text-lg {
   position: absolute;
-  margin-top: 245px;
+  margin-top: 275px;
   margin-left: 10px;
   color: white;
   font-size: 25px;
@@ -112,15 +112,15 @@ bi.bi-house-door {
 
 .starship-text-md {
   position: absolute;
-  margin-top: 265px;
-  margin-left: 10px;
+  margin-top: 302px;
+  margin-left: 12px;
   color: white;
   font-size: 25px;
 }
 
 .starship-text-sm {
   position: absolute;
-  margin-top: 185px;
+  margin-top: 211px;
   margin-left: 8px;
   color: white;
   font-size: 25px;
@@ -128,7 +128,7 @@ bi.bi-house-door {
 
 .starship-text-xs {
   position: absolute;
-  margin-top: 185px;
+  margin-top: 195px;
   margin-left: 8px;
   color: white;
 }
