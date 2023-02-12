@@ -63,6 +63,18 @@ bi.bi-house-door {
   margin-bottom: 3px;
 }
 
+.nav.wd-foryou-color {
+  --bs-nav-link-color: black;
+}
+
+.nav-item.wd-foryou {
+  border-bottom: solid 3px rgb(29, 161, 242);
+  border-left-width: 1px;
+  border-right-width: 1px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
 .btn-pad0.btn.btn-link {
   padding-right: 0;
 }
@@ -239,4 +251,9 @@ bi.bi-house-door {
 #tweet-button {
   border-color: white;
   background-color: rgb(95, 190, 250);
+}
+
+.wd-t-logo {
+  width: 20px;
+  height: 20px;
 }
