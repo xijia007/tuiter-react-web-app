@@ -1,0 +1,3335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+
+    <link
+      href="../../vendors/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link href="index-a4-tuiter.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="visible-xs" class="d-block d-sm-none">
+      XS
+      <div class="container">
+        <div class="row justify-content-center mt-2">
+          <div id="navigation-sidebar" class="col-2">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-house-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"
+                    />
+                    <path
+                      d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"
+                    />
+                  </svg>
+                  <span class="d-none d-sm-block">Home</span>
+                </a>
+              </li>
+              <li class="list-group-item active">
+                <a href="#" class="wd-text-white wd-hyperlink-no-underline">
+                  <span>#</span>
+                  <span class="ms-2 d-none d-sm-block">Explore</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bell-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"
+                    />
+                  </svg>
+                  <span class="d-none d-sm-block">Notifications</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-envelope-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                    />
+                  </svg>
+                  <span class="d-none d-sm-block">Messages</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"
+                    />
+                  </svg>
+                  <span class="d-none d-sm-block">Bookmarks</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-list-ul"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                    />
+                  </svg>
+                  <span class="d-none d-sm-block">Lists</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-person-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                    />
+                  </svg>
+                  <span class="d-none d-sm-block">Profile</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-three-dots"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+                    />
+                  </svg>
+                  <span class="d-none d-sm-block">More</span>
+                </a>
+              </li>
+            </ul>
+
+            <a
+              href="#"
+              class="col-12 btn btn-primary .mx-auto rounded-pill mt-2 font-size-13"
+              >Tweet</a
+            >
+          </div>
+
+          <div id="main-content" class="col-10">
+            <div id="searchbar" class="row justify-content-between">
+              <span class="search-icon"><i class="bi bi-search"></i></span>
+              <div class="col-10">
+                <form
+                  class="form-inline"
+                  style="
+                    position: relative;
+                    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+                  "
+                >
+                  <input
+                    style="
+                      height: 60px;
+                      text-indent: 50px;
+                      border: 2px solid #d6d4d4;
+                    "
+                    class="form-control h-auto mr-sm-2 input-sm rounded-pill"
+                    type="search"
+                    placeholder="Search Twitter"
+                    aria-label="Search"
+                  />
+                </form>
+              </div>
+              <div id="blue-gear-button" class="col-2">
+                <button
+                  type="button"
+                  class="btn btn-link"
+                  onclick="window.location.href='explore-settings.html';"
+                >
+                  <span class="bi bi-gear"></span>
+                </button>
+              </div>
+            </div>
+
+            <div id="for-you" class="mt-2">
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" href="for-you.html">For you</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sports.html">Sports</a>
+                </li>
+                <li class="nav-item d-none d-sm-block">
+                  <a class="nav-link" href="entertainment.html"
+                    >Entertainment</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <span class="starship-text-xs">SpaceX`s Starship</span>
+              <img src="./Starship.jpg" alt="" class="card-img-top" />
+            </div>
+
+            <div id="main-posts">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-9">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>ReactJS</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary"> - 2h</span>
+                      </div>
+                      <div>
+                        <strong
+                          >React.js is a component based front end library that
+                          makes it very easy to build Single Page Applications
+                          or SPAs.</strong
+                        >
+                      </div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        src="./main-icon1.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-9">
+                      <div>
+                        <strong>JavaScript</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary"> - 2h</span>
+                      </div>
+                      <div>
+                        <strong
+                          >JavaScript is programming language that can run on
+                          browsers as well as desktops.</strong
+                        >
+                      </div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        src="./JavaScript.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-9">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>jQuery</strong>
+                      </div>
+                      <div class="text-secondary">123K Tweets</div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        src="./jquery.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-9">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>NodeJS</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary">- 2h</span>
+                      </div>
+                      <div class="text-secondary">123K Tweets</div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        src="./nodejs.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="right-sidebar" class="d-none d-sm-block">
+            <ul class="list-group">
+              <li class="list-group-item">Who to follow</li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./java.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Java
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@Java</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./Relativity Space.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Relativity Space
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@relativityspace</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./Virgin Galactic.svg"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Virgin Galactic
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@virgingalactic</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./NASA.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        NASA
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@NASA</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./tesla.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Tesla
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@Tesla</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="visible-sm" class="d-none d-sm-block d-md-none">
+      S
+      <div class="container">
+        <div class="row justify-content-center mt-2">
+          <div id="navigation-sidebar" class="col-2">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-house-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"
+                    />
+                    <path
+                      d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"
+                    />
+                  </svg>
+                  <span class="d-sm-none d-md-block">Home</span>
+                </a>
+              </li>
+              <li class="list-group-item active">
+                <a href="#" class="wd-text-white wd-hyperlink-no-underline">
+                  <span>#</span>
+                  <span class="ms-2 d-sm-none d-md-block">Explore</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bell-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"
+                    />
+                  </svg>
+                  <span class="d-sm-none d-md-block">Notifications</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-envelope-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                    />
+                  </svg>
+                  <span class="d-sm-none d-md-block">Messages</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"
+                    />
+                  </svg>
+                  <span class="d-sm-none d-md-block">Bookmarks</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-list-ul"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                    />
+                  </svg>
+                  <span class="d-sm-none d-md-block">Lists</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-person-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                    />
+                  </svg>
+                  <span class="d-sm-none d-md-block">Profile</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-three-dots"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+                    />
+                  </svg>
+                  <span class="d-sm-none d-md-block">More</span>
+                </a>
+              </li>
+            </ul>
+
+            <a
+              href="#"
+              class="col-12 btn btn-primary .mx-auto rounded-pill mt-2"
+              >Tweet</a
+            >
+          </div>
+
+          <div id="main-content" class="col-10">
+            <div id="searchbar" class="row justify-content-between">
+              <span class="search-icon"><i class="bi bi-search"></i></span>
+              <div class="col-10">
+                <form
+                  class="form-inline"
+                  style="
+                    position: relative;
+                    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+                  "
+                >
+                  <input
+                    style="
+                      height: 60px;
+                      text-indent: 50px;
+                      border: 2px solid #d6d4d4;
+                    "
+                    class="form-control h-auto mr-sm-2 input-sm rounded-pill"
+                    type="search"
+                    placeholder="Search Twitter"
+                    aria-label="Search"
+                  />
+                </form>
+              </div>
+              <div id="blue-gear-button" class="col-2">
+                <button
+                  type="button"
+                  class="btn btn-link"
+                  onclick="window.location.href='explore-settings.html';"
+                >
+                  <span class="bi bi-gear"></span>
+                </button>
+              </div>
+            </div>
+
+            <div id="for-you" class="mt-2">
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" href="for-you.html">For you</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sports.html">Sports</a>
+                </li>
+                <li class="nav-item d-sm-none d-md-block">
+                  <a class="nav-link" href="entertainment.html"
+                    >Entertainment</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <span class="starship-text-sm">SpaceX`s Starship</span>
+              <img src="./Starship.jpg" alt="" class="card-img-top" />
+            </div>
+
+            <div id="main-posts">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-9">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>ReactJS</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary"> - 2h</span>
+                      </div>
+                      <div>
+                        <strong
+                          >React.js is a component based front end library that
+                          makes it very easy to build Single Page Applications
+                          or SPAs.</strong
+                        >
+                      </div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        src="./main-icon1.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-9">
+                      <div>
+                        <strong>JavaScript</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary"> - 2h</span>
+                      </div>
+                      <div>
+                        <strong
+                          >JavaScript is programming language that can run on
+                          browsers as well as desktops.</strong
+                        >
+                      </div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        src="./JavaScript.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-9">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>jQuery</strong>
+                      </div>
+                      <div class="text-secondary">123K Tweets</div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        src="./jquery.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-9">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>NodeJS</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary">- 2h</span>
+                      </div>
+                      <div class="text-secondary">123K Tweets</div>
+                    </div>
+
+                    <div class="col-3">
+                      <img
+                        src="./nodejs.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="right-sidebar" class="d-sm-none d-md-block">
+            <ul class="list-group">
+              <li class="list-group-item">Who to follow</li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./java.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Java
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@Java</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./Relativity Space.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Relativity Space
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@relativityspace</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./Virgin Galactic.svg"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Virgin Galactic
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@virgingalactic</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./NASA.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        NASA
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@NASA</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./tesla.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Tesla
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@Tesla</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="visible-md" class="d-none d-md-block d-lg-none">
+      M
+      <div class="container">
+        <div class="row justify-content-center mt-2">
+          <div id="navigation-sidebar" class="col-2">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-house-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"
+                    />
+                    <path
+                      d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"
+                    />
+                  </svg>
+                  <span class="d-md-none d-lg-block">Home</span>
+                </a>
+              </li>
+              <li class="list-group-item active">
+                <a href="#" class="wd-text-white wd-hyperlink-no-underline">
+                  <span>#</span>
+                  <span class="ms-2 d-md-none d-lg-block">Explore</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bell-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"
+                    />
+                  </svg>
+                  <span class="d-md-none d-lg-block">Notifications</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-envelope-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                    />
+                  </svg>
+                  <span class="d-md-none d-lg-block">Messages</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"
+                    />
+                  </svg>
+                  <span class="d-md-none d-lg-block">Bookmarks</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-list-ul"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                    />
+                  </svg>
+                  <span class="d-md-none d-lg-block">Lists</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-person-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                    />
+                  </svg>
+                  <span class="d-md-none d-lg-block">Profile</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-three-dots"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+                    />
+                  </svg>
+                  <span class="d-md-none d-lg-block">More</span>
+                </a>
+              </li>
+            </ul>
+
+            <a
+              href="#"
+              class="col-12 btn btn-primary .mx-auto rounded-pill mt-2"
+              >Tweet</a
+            >
+          </div>
+
+          <div id="main-content" class="col-10">
+            <div id="searchbar" class="row justify-content-between">
+              <span class="search-icon"><i class="bi bi-search"></i></span>
+              <div class="col-10">
+                <form
+                  class="form-inline"
+                  style="
+                    position: relative;
+                    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+                  "
+                >
+                  <input
+                    style="
+                      height: 60px;
+                      text-indent: 50px;
+                      border: 2px solid #d6d4d4;
+                    "
+                    class="form-control h-auto mr-sm-2 input-sm rounded-pill"
+                    type="search"
+                    placeholder="Search Twitter"
+                    aria-label="Search"
+                  />
+                </form>
+              </div>
+              <div id="blue-gear-button" class="col-2">
+                <button
+                  type="button"
+                  class="btn btn-link"
+                  onclick="window.location.href='explore-settings.html';"
+                >
+                  <span class="bi bi-gear"></span>
+                </button>
+              </div>
+            </div>
+
+            <div id="for-you" class="mt-2">
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" href="for-you.html">For you</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sports.html">Sports</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="entertainment.html"
+                    >Entertainment</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <span class="starship-text-md">SpaceX`s Starship</span>
+              <img src="./Starship.jpg" alt="" class="card-img-top" />
+            </div>
+
+            <div id="main-posts">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>ReactJS</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary"> - 2h</span>
+                      </div>
+                      <div>
+                        <strong
+                          >React.js is a component based front end library that
+                          makes it very easy to build Single Page Applications
+                          or SPAs.</strong
+                        >
+                      </div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./main-icon1.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div>
+                        <strong>JavaScript</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary"> - 2h</span>
+                      </div>
+                      <div>
+                        <strong
+                          >JavaScript is programming language that can run on
+                          browsers as well as desktops.</strong
+                        >
+                      </div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./JavaScript.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>jQuery</strong>
+                      </div>
+                      <div class="text-secondary">123K Tweets</div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./jquery.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>NodeJS</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary">- 2h</span>
+                      </div>
+                      <div class="text-secondary">123K Tweets</div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./nodejs.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="right-sidebar" class="d-md-none d-lg-block">
+            <ul class="list-group">
+              <li class="list-group-item">Who to follow</li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./java.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Java
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@Java</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./Relativity Space.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Relativity Space
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@relativityspace</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./Virgin Galactic.svg"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Virgin Galactic
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@virgingalactic</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./NASA.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        NASA
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@NASA</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./tesla.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Tesla
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@Tesla</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="visible-lg" class="d-none d-lg-block d-xl-none">
+      L
+      <div class="container">
+        <div class="row justify-content-center mt-2">
+          <div id="navigation-sidebar" class="col-1">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-house-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"
+                    />
+                    <path
+                      d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"
+                    />
+                  </svg>
+                  <span class="d-lg-none d-md-block">Home</span>
+                </a>
+              </li>
+              <li class="list-group-item active">
+                <a href="#" class="wd-text-white wd-hyperlink-no-underline">
+                  <span>#</span>
+                  <span class="ms-2 d-lg-none d-md-block">Explore</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bell-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"
+                    />
+                  </svg>
+                  <span class="d-lg-none d-md-block">Notifications</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-envelope-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                    />
+                  </svg>
+                  <span class="d-lg-none d-md-block">Messages</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"
+                    />
+                  </svg>
+                  <span class="d-lg-none d-md-block">Bookmarks</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-list-ul"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                    />
+                  </svg>
+                  <span class="d-lg-none d-md-block">Lists</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-person-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                    />
+                  </svg>
+                  <span class="d-lg-none d-md-block">Profile</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-three-dots"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+                    />
+                  </svg>
+                  <span class="d-lg-none d-md-block">More</span>
+                </a>
+              </li>
+            </ul>
+
+            <a
+              href="#"
+              style="min-width: 120%"
+              class="col-12 btn btn-primary .mx-auto rounded-pill mt-2"
+              >Tweet</a
+            >
+          </div>
+
+          <div id="main-content" class="col-7">
+            <div id="searchbar" class="row justify-content-between">
+              <span class="search-icon"><i class="bi bi-search"></i></span>
+              <div class="col-10">
+                <form
+                  class="form-inline"
+                  style="
+                    position: relative;
+                    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+                  "
+                >
+                  <input
+                    style="
+                      height: 60px;
+                      text-indent: 50px;
+                      border: 2px solid #d6d4d4;
+                    "
+                    class="form-control h-auto mr-sm-2 input-sm rounded-pill"
+                    type="search"
+                    placeholder="Search Twitter"
+                    aria-label="Search"
+                  />
+                </form>
+              </div>
+              <div id="blue-gear-button" class="col-2">
+                <button
+                  type="button"
+                  class="btn btn-link"
+                  onclick="window.location.href='explore-settings.html';"
+                >
+                  <span class="bi bi-gear"></span>
+                </button>
+              </div>
+            </div>
+
+            <div id="for-you" class="mt-2">
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" href="for-you.html">For you</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sports.html">Sports</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="entertainment.html"
+                    >Entertainment</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <span class="starship-text-lg">SpaceX`s Starship</span>
+              <img src="./Starship.jpg" alt="" class="card-img-top" />
+            </div>
+
+            <div id="main-posts">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>ReactJS</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary"> - 2h</span>
+                      </div>
+                      <div>
+                        <strong
+                          >React.js is a component based front end library that
+                          makes it very easy to build Single Page Applications
+                          or SPAs.</strong
+                        >
+                      </div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./main-icon1.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div>
+                        <strong>JavaScript</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary"> - 2h</span>
+                      </div>
+                      <div>
+                        <strong
+                          >JavaScript is programming language that can run on
+                          browsers as well as desktops.</strong
+                        >
+                      </div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./JavaScript.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>jQuery</strong>
+                      </div>
+                      <div class="text-secondary">123K Tweets</div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./jquery.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>NodeJS</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary">- 2h</span>
+                      </div>
+                      <div class="text-secondary">123K Tweets</div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./nodejs.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="right-sidebar" class="col-4">
+            <ul class="list-group">
+              <li class="list-group-item">Who to follow</li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./java.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Java
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@Java</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./Relativity Space.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Relativity Space
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@relativityspace</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./Virgin Galactic.svg"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Virgin Galactic
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@virgingalactic</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./NASA.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        NASA
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@NASA</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./tesla.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Tesla
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@Tesla</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="visible-xl" class="d-none d-xl-block d-xxl-none">
+      XL
+      <div class="container">
+        <div class="row justify-content-center mt-2">
+          <div id="navigation-sidebar" class="col-2">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-house-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"
+                    />
+                    <path
+                      d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"
+                    />
+                  </svg>
+                  <span>Home</span>
+                </a>
+              </li>
+              <li class="list-group-item active">
+                <a href="#" class="wd-text-white wd-hyperlink-no-underline">
+                  <span>#</span>
+                  <span class="ms-2">Explore</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bell-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"
+                    />
+                  </svg>
+                  Notifications
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-envelope-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                    />
+                  </svg>
+                  Messages
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"
+                    />
+                  </svg>
+                  Bookmarks
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-list-ul"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                    />
+                  </svg>
+                  Lists
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-person-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                    />
+                  </svg>
+                  Profile
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-three-dots"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+                    />
+                  </svg>
+                  More
+                </a>
+              </li>
+            </ul>
+
+            <a
+              href="#"
+              class="col-12 btn btn-primary .mx-auto rounded-pill mt-2"
+              >Tweet</a
+            >
+          </div>
+
+          <div id="main-content follow-list-group" class="col-6">
+            <div id="searchbar" class="row justify-content-between">
+              <span class="search-icon"><i class="bi bi-search"></i></span>
+              <div class="col-10">
+                <form
+                  class="form-inline"
+                  style="
+                    position: relative;
+                    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+                  "
+                >
+                  <input
+                    style="
+                      height: 60px;
+                      text-indent: 50px;
+                      border: 2px solid #d6d4d4;
+                    "
+                    class="form-control h-auto mr-sm-2 input-sm rounded-pill"
+                    type="search"
+                    placeholder="Search Twitter"
+                    aria-label="Search"
+                  />
+                </form>
+              </div>
+              <div id="blue-gear-button" class="col-2">
+                <button
+                  type="button"
+                  class="btn btn-link"
+                  onclick="window.location.href='explore-settings.html';"
+                >
+                  <span class="bi bi-gear"></span>
+                </button>
+              </div>
+            </div>
+
+            <div id="for-you" class="mt-2">
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active foryou" href="for-you.html"
+                    >For you</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sports.html">Sports</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="entertainment.html"
+                    >Entertainment</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <span class="starship-text-xl">SpaceX`s Starship</span>
+              <img src="./Starship.jpg" alt="" class="card-img-top" />
+            </div>
+
+            <div id="main-posts">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>ReactJS</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary"> - 2h</span>
+                      </div>
+                      <div>
+                        <strong
+                          >React.js is a component based front end library that
+                          makes it very easy to build Single Page Applications
+                          or SPAs.</strong
+                        >
+                      </div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./main-icon1.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div>
+                        <strong>JavaScript</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary"> - 2h</span>
+                      </div>
+                      <div>
+                        <strong
+                          >JavaScript is programming language that can run on
+                          browsers as well as desktops.</strong
+                        >
+                      </div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./JavaScript.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>jQuery</strong>
+                      </div>
+                      <div class="text-secondary">123K Tweets</div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./jquery.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>NodeJS</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary">- 2h</span>
+                      </div>
+                      <div class="text-secondary">123K Tweets</div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./nodejs.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="right-sidebar" class="col-4">
+            <ul class="list-group">
+              <li class="list-group-item">Who to follow</li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./java.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Java
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@Java</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./Relativity Space.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Relativity Space
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@relativityspace</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./Virgin Galactic.svg"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Virgin Galactic
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@virgingalactic</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./NASA.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        NASA
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@NASA</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./tesla.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Tesla
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@Tesla</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="visible-xxl" class="d-none d-xxl-block">
+      XXL
+      <div class="container">
+        <div class="row justify-content-center mt-2">
+          <div id="navigation-sidebar" class="col-2">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-house-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"
+                    />
+                    <path
+                      d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"
+                    />
+                  </svg>
+                  <span>Home</span>
+                </a>
+              </li>
+              <li class="list-group-item active">
+                <a href="#" class="wd-text-white wd-hyperlink-no-underline">
+                  <span>#</span>
+                  <span class="ms-2">Explore</span>
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bell-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"
+                    />
+                  </svg>
+                  Notifications
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-envelope-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                    />
+                  </svg>
+                  Messages
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"
+                    />
+                  </svg>
+                  Bookmarks
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-list-ul"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                    />
+                  </svg>
+                  Lists
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-person-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                    />
+                  </svg>
+                  Profile
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="#" class="wd-text-black wd-hyperlink-no-underline">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-three-dots"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+                    />
+                  </svg>
+                  More
+                </a>
+              </li>
+            </ul>
+
+            <a
+              href="#"
+              class="col-12 btn btn-primary .mx-auto rounded-pill mt-2"
+              >Tweet</a
+            >
+          </div>
+
+          <div id="main-content" class="col-6">
+            <div id="searchbar" class="row justify-content-between">
+              <span class="search-icon"><i class="bi bi-search"></i></span>
+              <div class="col-10">
+                <form
+                  class="form-inline"
+                  style="
+                    position: relative;
+                    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+                  "
+                >
+                  <input
+                    style="
+                      height: 60px;
+                      text-indent: 50px;
+                      border: 2px solid #d6d4d4;
+                    "
+                    class="form-control h-auto mr-sm-2 input-sm rounded-pill"
+                    type="search"
+                    placeholder="Search Twitter"
+                    aria-label="Search"
+                  />
+                </form>
+              </div>
+              <div id="blue-gear-button" class="col-2">
+                <button
+                  type="button"
+                  class="btn btn-link"
+                  onclick="window.location.href='explore-settings.html';"
+                >
+                  <span class="bi bi-gear"></span>
+                </button>
+              </div>
+            </div>
+
+            <div id="for-you" class="mt-2">
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" href="for-you.html">For you</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sports.html">Sports</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="entertainment.html"
+                    >Entertainment</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <span class="starship-text-xxl">SpaceX`s Starship</span>
+              <img src="./Starship.jpg" alt="" class="card-img-top" />
+            </div>
+
+            <div id="main-posts">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>ReactJS</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary"> - 2h</span>
+                      </div>
+                      <div>
+                        <strong
+                          >React.js is a component based front end library that
+                          makes it very easy to build Single Page Applications
+                          or SPAs.</strong
+                        >
+                      </div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./main-icon1.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div>
+                        <strong>JavaScript</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary"> - 2h</span>
+                      </div>
+                      <div>
+                        <strong
+                          >JavaScript is programming language that can run on
+                          browsers as well as desktops.</strong
+                        >
+                      </div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./JavaScript.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>jQuery</strong>
+                      </div>
+                      <div class="text-secondary">123K Tweets</div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./jquery.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row justify-content-between py-1 ps-1">
+                    <div class="col-10">
+                      <div class="text-secondary">Web Development</div>
+                      <div>
+                        <strong>NodeJS</strong>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                        <span class="text-secondary">- 2h</span>
+                      </div>
+                      <div class="text-secondary">123K Tweets</div>
+                    </div>
+
+                    <div class="col-2">
+                      <img
+                        src="./nodejs.png"
+                        ,
+                        class="rounded"
+                        alt="Rounded Image"
+                        width="70px"
+                        height="70px"
+                      />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="right-sidebar" class="col-4">
+            <ul class="list-group">
+              <li class="list-group-item">Who to follow</li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./java.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Java
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@Java</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./Relativity Space.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Relativity Space
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@relativityspace</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./Virgin Galactic.svg"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Virgin Galactic
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@virgingalactic</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./NASA.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        NASA
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@NASA</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item follow-list-group">
+                <div class="d-flex justify-content-start">
+                  <div class="d-inline-flex col-2">
+                    <img
+                      src="./tesla.png"
+                      ,
+                      class="rounded-circle"
+                      alt="Rounded Image"
+                      width="40px"
+                      height="40px"
+                    />
+                  </div>
+                  <div class="d-inline-flex col-7">
+                    <div class="d-flex flex-column">
+                      <div class="row-6">
+                        Tesla
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check-circle-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                          />
+                        </svg>
+                      </div>
+
+                      <div class="row-6">@Tesla</div>
+                    </div>
+                  </div>
+                  <div class="d-inline-flex col-3 align-self-center">
+                    <a href="#" class="btn btn-primary rounded-pill">Follow</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
