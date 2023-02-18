@@ -1,5 +1,5 @@
 const SearchField = () => {
-    return (`
+  return `
          
                 <span class="wd-search-icon"><i class="bi bi-search"></i></span>
                 <div class="col-11">
@@ -25,10 +25,10 @@ const SearchField = () => {
                       class="btn btn-link"
                       onclick="window.location.href='explore-settings.html';"
                     >
-                      <span class="bi bi-gear"></span>
+                    <i class="bi bi-gear-fill"></i>
                     </button>
                 </div>
             
-    `)
-}
+    `;
+};
 export default SearchField;

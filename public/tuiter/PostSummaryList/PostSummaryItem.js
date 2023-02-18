@@ -4,7 +4,7 @@ const PostSummaryItem = (post) => {
       return `
         <li class="list-group-item follow-list-group">
             <div class="row justify-content-between py-1 ps-1">
-                <div class="col-10">
+                <div class="col-9">
                     <div class="text-secondary">
                         ${item.topic ? item.topic : ""}
                     </div>
@@ -20,14 +20,16 @@ const PostSummaryItem = (post) => {
                         ${item.tweets ? item.tweets : ""}
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-3" style="text-align: center;">
+                    
                     <img
                         src="${item.image ? item.image : ""}",
-                        class="rounded wd-post-image"
+                        class="rounded"
                         alt="Rounded Image"
+                        style="width: 100%; height: auto;"
     
                     />
-                </div>
+                    
             </div>
         </li>
         `;
