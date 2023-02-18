@@ -242,3 +242,81 @@ input::placeholder {
   color: rgb(110, 118, 125);
   margin-bottom: 5px;
 }
+
+.wd-who-to-follow-bolded {
+  font-weight: bold;
+}
+
+.wd-search-icon {
+  position: absolute;
+  z-index: 10;
+  margin: 9px 19px;
+  width: 10px;
+}
+
+#blue-gear-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.starship-text-xxl {
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 15px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.starship-text-xl {
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 15px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.starship-text-lg {
+  position: absolute;
+  margin-top: 265px;
+  margin-left: 10px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.starship-text-md {
+  position: absolute;
+  margin-top: 288px;
+  margin-left: 12px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+.wd-image-container {
+  position: relative;
+}
+
+.wd-starship-text {
+  position: absolute;
+  bottom: 5px;
+  margin-left: 8px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.starship-text-xs {
+  position: absolute;
+  /* margin-top: 213px; */
+  margin-left: 8px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.wd-post-image {
+  width: 70px;
+  height: 70px;
+}

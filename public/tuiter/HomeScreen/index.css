@@ -1,0 +1,25 @@
+.wd-post-image {
+  width: 50px;
+  height: 50px;
+}
+
+.wd-post-summary-bold {
+  font-weight: bold;
+}
+
+.wd-rounded-image {
+  width: 50px;
+  height: 50px;
+}
+.wd-post-box-border {
+  border: 1px solid rgb(110, 118, 125);
+  border-radius: 10px;
+}
+
+.wd-post-image-border {
+  border-bottom: 1px solid rgb(110, 118, 125);
+}
+
+.wd-post-image {
+  width: 100%;
+}
