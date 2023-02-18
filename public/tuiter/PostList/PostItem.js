@@ -4,17 +4,16 @@ const PostItem = (post) => {
       return `
         <li class="container" style="list-style-type: none; border: 1px solid rgb(110, 118, 125);">
             <div class="row p-2">
-                <div id="avaterimage" class="col-1" style="text-align: center;">
+                <div id="avaterimage" class="col-2" style="text-align: right;">
                     
                     <img src="${item.avatarImage ? item.avatarImage : ""}",
                          class="rounded-circle wd-rounded-image"
                          alt="Rounded Image"
-                         width: "50px"
-                         height:"50px"/>
+                    />
                     
                 </div>
-                <div class="col-11">
-                    <div id="usernamebox" style="padding-left: 5px; padding-top: 3px;">
+                <div class="col-10">
+                    <div id="usernamebox" style="padding-top: 3px;">
                         <div class="row">
                             <div class="col-11">
                                 <span class="text-white">
@@ -44,7 +43,7 @@ const PostItem = (post) => {
                           item.topicLinksAfter ? item.topicLinksAfter : ""
                         }</a>
                     </div>
-                    <div id="posts" class="card" style="border: 1px solid rgb(110, 118, 125);">
+                    <div id="posts" class="card" >
                         <div>
                             <img src="${item.cardImage ? item.cardImage : ""}"
                             class="card-img-top" alt="...">
@@ -53,7 +52,7 @@ const PostItem = (post) => {
                                 ${
                                   item.cardTitle
                                     ? '<div class="card-body" style="background-color: black; border-top: 1px solid rgb(110, 118, 125);">' +
-                                      '<div class="card-title text-white mt-3">' +
+                                      '<div class="card-title text-white">' +
                                       item.cardTitle +
                                       "</div>"
                                     : ""
