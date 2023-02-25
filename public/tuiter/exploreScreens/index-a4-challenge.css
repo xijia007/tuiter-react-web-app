@@ -1,0 +1,259 @@
+.list-group.list-group-border {
+  --bs-list-group-border-color: white;
+}
+
+.list-group-item.no-border {
+  border: 0;
+}
+
+.bolded.list-group-item.active {
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.fa.fa-home {
+  display: inline-block;
+}
+
+bi.bi-house-door {
+  display: block;
+}
+
+.bi.bi-bell-fill {
+  display: inline-block;
+}
+
+.bi.bi-bell {
+  display: block;
+}
+
+.bi.bi-envelope-fill {
+  display: inline-block;
+}
+
+.bi.bi-envelope {
+  display: block;
+}
+
+.bi.bi-bookmark-fill {
+  display: inline-block;
+}
+
+.bi.bi-bookmark {
+  display: block;
+}
+
+.bi.bi-person-fill {
+  display: inline-block;
+}
+
+.bi.bi-person {
+  display: block;
+}
+
+.nav-link.active.foryou {
+  border-top-color: white;
+  border-left-color: white;
+  border-right-color: white;
+  border-bottom-color: rgb(29, 161, 242);
+  border-width: 3px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.nav.wd-foryou-color {
+  --bs-nav-link-color: black;
+}
+
+.nav-item.wd-foryou {
+  border-bottom: solid 3px rgb(29, 161, 242);
+  border-left-width: 1px;
+  border-right-width: 1px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.btn-pad0.btn.btn-link {
+  padding-right: 0;
+}
+
+.navbar-nav.nav-pad0 {
+  padding-right: 0;
+}
+
+.nav-link.text-gray {
+  color: rgb(110, 118, 125);
+}
+
+#blue-gear-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-icon {
+  position: absolute;
+  z-index: 10;
+  margin: 9px 19px;
+  width: 10px;
+}
+.starship-text-xl {
+  position: absolute;
+  margin-top: 285px;
+  margin-left: 15px;
+  color: white;
+  font-size: 25px;
+}
+
+.starship-text-xxl {
+  position: absolute;
+  margin-top: 330px;
+  margin-left: 15px;
+  color: white;
+  font-size: 25px;
+}
+
+.starship-text-lg {
+  position: absolute;
+  margin-top: 275px;
+  margin-left: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+.starship-text-md {
+  position: absolute;
+  margin-top: 302px;
+  margin-left: 12px;
+  color: white;
+  font-size: 25px;
+}
+
+.starship-text-sm {
+  position: absolute;
+  margin-top: 211px;
+  margin-left: 8px;
+  color: white;
+  font-size: 25px;
+}
+
+.starship-text-xs {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 8px;
+  color: white;
+}
+
+.wd-starship-text-size-s {
+  font-size: 12px;
+}
+.wd-starship-text-size-l {
+  font-size: 20px;
+  font-weight: bold;
+}
+.main-container-border {
+  border-left: lightgray 1px solid;
+  border-right: lightgray 1px solid;
+}
+
+.row.margin-left0 {
+  margin-left: 0;
+}
+
+.main-top {
+  margin-bottom: 3px;
+}
+
+.font-size-13 {
+  font-size: 13px;
+}
+
+.dot-item {
+  padding-right: 0;
+}
+
+.dot {
+  color: rgb(110, 118, 125);
+  float: right;
+  margin-right: 16px;
+  font-size: 15px;
+}
+
+.form-control.searchbar-background-color {
+  background-color: rgb(230, 235, 235);
+  border: 0;
+}
+
+.list-group-item.bg-color {
+  background-color: rgb(245, 246, 247);
+}
+
+#follow {
+  background-color: black;
+}
+
+.show-more {
+  font-size: 15px;
+  color: rgb(29, 161, 242);
+}
+
+.wd-text-black {
+  color: black;
+}
+
+.nav-tabs.wd-no-border {
+  border: 0;
+}
+
+.nav-item.wd-bolded {
+  font-weight: bold;
+}
+
+.btn-link.wd-link-nocolor {
+  --bs-btn-color: 0;
+}
+
+.nav-item.wd-min-width {
+  min-width: 80%;
+}
+
+.wd-main-post-border-top {
+  border-top: solid 1px lightgray;
+}
+
+.wd-copyright-margin {
+  padding: 15px;
+  color: darkgray;
+  font-size: 10px;
+}
+
+.wd-copyright-item-margin {
+  margin-right: 10px;
+}
+
+.wd-copyright-item-font-size-12 {
+  font-size: 12px;
+}
+
+.wd-copyright-item-font-size-14 {
+  font-size: 14px;
+}
+
+.wd-copyright-no-underline {
+  text-decoration: none;
+}
+
+.wd-who-to-follow-bolded {
+  font-weight: bold;
+}
+
+#tweet-button {
+  border-color: white;
+  background-color: rgb(95, 190, 250);
+}
+
+.wd-t-logo {
+  width: 20px;
+  height: 20px;
+}

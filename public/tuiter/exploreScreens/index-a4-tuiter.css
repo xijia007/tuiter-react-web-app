@@ -1,0 +1,77 @@
+.search-icon {
+  position: absolute;
+  z-index: 10;
+  margin: 9px 19px;
+  width: 10px;
+}
+#blue-gear-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.starship-text-xl {
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+.starship-text-xxl {
+  position: absolute;
+  margin-top: 317px;
+  margin-left: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+.starship-text-lg {
+  position: absolute;
+  margin-top: 262px;
+  margin-left: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+.starship-text-md {
+  position: absolute;
+  margin-top: 284px;
+  margin-left: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+.starship-text-sm {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 8px;
+  color: white;
+  font-size: 25px;
+}
+
+.starship-text-xs {
+  position: absolute;
+  margin-top: 162px;
+  margin-left: 8px;
+  color: white;
+  font-size: 25px;
+}
+
+.font-size-13 {
+  font-size: 13px;
+}
+
+.wd-text-black {
+  color: black;
+}
+
+.nav-item.wd-min-width {
+  min-width: 80%;
+}
+
+.wd-hyperlink-no-underline {
+  text-decoration: none;
+}
+
+.wd-text-white {
+  color: white;
+}
