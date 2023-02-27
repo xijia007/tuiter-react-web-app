@@ -44,6 +44,7 @@ function App() {
           <Route path="/hello" element={<HelloWorld />} />
           {/* <Route path="/tuiter" element={<Tuiter />} /> */}
           <Route path="/tuiter/*" element={<Tuiter />} />
+          {/* <Route path="/tuiter/explore" element={<ExploreComponent />} /> */}
         </Routes>
       </div>
     </BrowserRouter>
