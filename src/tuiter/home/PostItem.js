@@ -17,19 +17,19 @@ const PostItem = ({ post }) => {
             fontWeight: "bold",
           }}
         >
-          <span style={{ margin: "0 10px 0 25px" }}>
+          <span style={{ margin: "0 20px 0 45px" }}>
             {post.retweeted ? <FaRetweet /> : null}
           </span>
           <span>{post.retweeted ? post.retweeted : null}</span>
         </div>
         <div className="row">
-          <div id="avater" className="col-1">
+          <div id="avater" className="col-2" style={{ textAlign: "right" }}>
             <img
               src={`../../images/${post.avatarImage ? post.avatarImage : null}`}
               style={{ borderRadius: "50%", width: "40px", height: "40px" }}
             />
           </div>
-          <div id="main" className="col-11">
+          <div id="main" className="col-10">
             <div className="row">
               <div className="col-11">
                 <div id="username">
