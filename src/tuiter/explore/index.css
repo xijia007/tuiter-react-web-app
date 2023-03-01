@@ -23,3 +23,9 @@
 .wd-bottom-4 {
   bottom: 4px;
 }
+
+.wd-search-bar {
+  z-index: 10;
+  margin: -30px 19px;
+  width: 10px;
+}

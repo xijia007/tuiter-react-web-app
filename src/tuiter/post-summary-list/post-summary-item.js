@@ -18,7 +18,7 @@ const PostSummaryItem = ({
             {post.userName} . {post.time}
           </div>
           <div className="fw-bolder">{post.topic}</div>
-          <div>{post.title}</div>
+          <div className="pe-3">{post.title}</div>
         </div>
         <div className="col-2">
           <img
