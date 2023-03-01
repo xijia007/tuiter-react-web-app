@@ -62,16 +62,20 @@ const PostItem = ({ post }) => {
               <span style={{ fontSize: "13px" }}>
                 {post.postContent ? post.postContent : null}
               </span>
-              <span>{post.postLink ? <FaArrowRight /> : null}</span>
+              <span>{post.postLinkName ? <FaArrowRight /> : null}</span>
               <a
-                href="https://www.spacex.com/updates"
+                // href="https://www.spacex.com/updates"
+                href="#"
                 style={{
                   fontSize: "13px",
                   color: "rgb(100,180,255)",
                   textDecoration: "none",
                 }}
               >
-                {post.postLink ? post.postLink : null}
+                {post.postLinkName ? post.postLinkName : null}
+                {/* <span style={{ fontSize: "13px", color: "rgb(100,180,255)" }}>
+                {post.postLinkName ? post.postLinkName : null}
+              </span> */}
               </a>
             </div>
             <DisplayBigImage post={post} />
