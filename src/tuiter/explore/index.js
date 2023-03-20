@@ -1,5 +1,5 @@
 import React from "react";
-import PostSummaryList from "../post-summary-list";
+import PostSummaryList from "../old-post-summary-list";
 import "./index.css";
 const ExploreComponent = () => {
   return (
@@ -50,12 +50,13 @@ const ExploreComponent = () => {
         </li>
       </ul>
       <div className="position-relative mb-2">
-        <img src="/images/starship.jpg" className="w-100" />
+        <img src="/images/starship.jpg" className="w-100" alt="" />
         <h1 className="position-absolute wd-nudge-up text-white">
           SpaceX Starship
         </h1>
       </div>
       <PostSummaryList />
+      {/* <TuitsList /> */}
     </>
   );
 };
