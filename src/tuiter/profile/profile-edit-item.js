@@ -259,8 +259,14 @@ const ProfileEditItem = () => {
               Cancel
             </button>
             <div>
-              <span style={{ fontSize: "17px", margin: "5px 0 0 0" }}>
-                Edit mode
+              <span
+                style={{
+                  fontSize: "15px",
+                  margin: "5px 0 0 0",
+                  color: "rgb(110, 118, 125)",
+                }}
+              >
+                Edit the date of birth in the following format: MM DD, YYYY
               </span>
 
               <input

@@ -6,9 +6,11 @@ const NavigationSidebar = () => {
   const { pathname } = useLocation();
   const paths = pathname.split("/");
   const active = paths[2];
-  console.log(active);
+  console.log("active", active);
 
-  const enableHomeActive = active === "home" || active === "" ? "active" : "";
+  const enableHomeActive =
+    active === "home" || active === "" || active === undefined ? "active" : "";
+  console.log(enableHomeActive, active, paths);
   const enableProfileActive =
     active === "profile" || active === "profile-edit" ? "active" : "";
   return (
