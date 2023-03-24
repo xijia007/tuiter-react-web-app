@@ -576,24 +576,35 @@ const ProfileEditItem = () => {
               Cancel
             </button>
             <div>
-              <span
+              {/* <span
                 style={{
                   fontSize: "15px",
                   margin: "5px 0 0 0",
                   color: "rgb(110, 118, 125)",
                 }}
               >
-                Edit the date of birth in the following format: MM DD, YYYY
-              </span>
+                Edit the date of birth
+              </span> */}
 
               <input
+                type={"date"}
+                // value={updateDateOfBirth}
+                onChange={(event) => setDateOfBirth(event.target.value)}
+                //   onClick={handleDateOfBirth}
+                style={{ fontSize: "15px", margin: "0 0 0 5px" }}
+                required={"^[A-Z][a-z]{2,8} [1-9]|[1-2][0-9]|3[0-1], [0-9]{4}$"}
+                // pattern={"^[A-Z][a-z]{2,8} [1-9]|[1-2][0-9]|3[0-1], [0-9]{4}$"}
+              ></input>
+              {/* <label for="start">Start date:</label> */}
+
+              {/* <input
                 type="text"
                 name="DOB"
                 value={dateOfBirth}
                 onChange={(event) => setDateOfBirth(event.target.value)}
                 //   onClick={handleDateOfBirth}
                 style={{ fontSize: "15px", margin: "0 0 0 5px" }}
-              ></input>
+              ></input> */}
             </div>
           </>
         )}
@@ -604,6 +615,16 @@ const ProfileEditItem = () => {
             onChange={(event) => setDateOfBirth(event.target.value)}
           /> */}
       </div>
+      {/* <div>
+        <input
+          type="date"
+          id="start"
+          name="trip-start"
+          value="2018-07-22"
+          min="2018-01-01"
+          max="2018-12-31"
+        ></input>
+      </div> */}
       <div
         className="d-flex justify-content-between"
         style={{ margin: "25px 0 0 0", fontSize: "18px" }}
