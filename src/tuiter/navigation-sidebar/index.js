@@ -15,7 +15,12 @@ const NavigationSidebar = () => {
     active === "profile" || active === "profile-edit" ? "active" : "";
   return (
     <div className="list-group">
-      <botton className={`list-group-item`}>
+      {/* <botton className={`list-group-item`}> */}
+      <Link
+        to="/tuiter"
+        className={`list-group-item`}
+        // className={`list-group-item active`}
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -32,7 +37,8 @@ const NavigationSidebar = () => {
         >
           Tuiter
         </span>
-      </botton>
+        {/* </botton> */}
+      </Link>
 
       <Link
         to="/tuiter/home"
