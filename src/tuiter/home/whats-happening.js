@@ -43,19 +43,32 @@
 import { createTuit } from "../tuits/tuits-reducer";
 import { useDispatch } from "react-redux";
 import React, { useState } from "react";
+import { createTuitThunk } from "../../services/tuits-thunks";
 
 const WhatsHappening = () => {
   let [whatsHappening, setWhatsHappening] = useState("");
   const dispatch = useDispatch();
   const tuitClickHandler = () => {
     const newTuit = {
+      topic: "Science",
+      username: "NASA",
+      handle: "@nasa",
+      // time: Math.floor(new Date().getTime() / (1000 * 60 * 60)),
+      time: "1h",
+      image: "nasa.png",
+      title: "The moon",
       tuit: whatsHappening,
+      // liked: true,
+      // likes: 12534,
+      // replies: 323,
+      // retuits: 534,
     };
-    dispatch(createTuit(newTuit));
+    // dispatch(createTuit(newTuit));
+    dispatch(createTuitThunk(newTuit));
   };
   return (
     <div className="row">
-      <div className="col-auto">
+      <div className="col-2">
         <img src="/images/nasa.png" width={60} />
       </div>
       <div className="col-10">
