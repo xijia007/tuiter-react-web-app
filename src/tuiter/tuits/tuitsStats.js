@@ -1,14 +1,22 @@
-import { mdiHelpCircleOutline } from "@mdi/js";
 import React from "react";
 
 import { useDispatch } from "react-redux";
 
-import { deleteTuitThunk } from "../../services/tuits-thunks";
+import { updateTuitThunk } from "../../services/tuits-thunks";
 
-const TuitStats = ({ post }) => {
+const TuitStats = ({ post, id }) => {
   const dispatch = useDispatch();
-  const deleteTuitHandler = (id) => {
-    dispatch(deleteTuitThunk(id));
+
+  const handleLike = () => {
+    const likeState = post?.liked;
+    const likesCount = post?.likes;
+    dispatch(
+      updateTuitThunk({
+        _id: id,
+        liked: !likeState,
+        likes: likeState ? likesCount - 1 : likesCount + 1,
+      })
+    );
   };
 
   return (
@@ -90,6 +98,7 @@ const TuitStats = ({ post }) => {
         <div
           id="like"
           className="p-2 col-3"
+          onClick={handleLike}
           style={{
             // margin: "0 20px 0 0",
             fontSize: "13px",

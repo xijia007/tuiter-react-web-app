@@ -65,9 +65,8 @@ const TuitsItem = ({ post }) => {
                 {post.tuit ? post.tuit : null}
               </span>
             </div>
-            <TuitStats key={post._id} post={post} />
+            <TuitStats id={post._id} post={post} />
           </div>
-          {/* <TuitStats key={post._id} post={post} /> */}
         </div>
       </div>
     </li>
