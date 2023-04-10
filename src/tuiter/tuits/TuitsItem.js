@@ -11,9 +11,9 @@ const TuitsItem = ({ post }) => {
   const deleteTuitHandler = (id) => {
     dispatch(deleteTuitThunk(id));
   };
-  // const deleteTuitHandler = (id) => {
-  //   dispatch(deleteTuit(id));
-  // };
+
+  const defaultImg = "/images/nasa.png";
+  const tuitAvatar = post.image ? post.image : defaultImg;
 
   return (
     <li className="list-group-item">
@@ -23,7 +23,7 @@ const TuitsItem = ({ post }) => {
             <img
               width={50}
               className="float-end rounded-circle"
-              src={`../../images/${post.image ? post.image : null}`}
+              src={tuitAvatar}
               alt="avater"
               // style={{ borderRadius: "50%", width: "40px", height: "40px" }}
             />
